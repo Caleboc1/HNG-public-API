@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
     res.json({
         email: "cakpomughe@gmail.com",
         current_datetime: new Date().toISOString(),
-        github_url: "https://github.com/Caleboc1"
+        github_url: "https://github.com/Caleboc1/HNG-public-API"
     });
 });
 
